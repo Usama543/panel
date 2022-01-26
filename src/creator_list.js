@@ -1,0 +1,130 @@
+const creator_list = [
+  {
+    id: 0,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 1,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 2,
+    name: "Name",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 3,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 4,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 5,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 6,
+    name: "New Creator Request",
+    userdetail: "New Creator ",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 7,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+
+  {
+    id: 8,
+    name: "New Creator Request",
+    userdetail: "New",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 9,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 10,
+    name: "New Creator Request",
+    userdetail: "New Creator Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 11,
+    name: "New Creator Request",
+    userdetail: "Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 12,
+    name: "New Creator Request",
+    userdetail: "Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 11,
+    name: "New Creator Request",
+    userdetail: "Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+  {
+    id: 13,
+    name: "New Creator Request",
+    userdetail: "Request",
+    item: "New Creator Request",
+    callprice: "12",
+    allAccess: "access",
+  },
+];
+
+export default creator_list;

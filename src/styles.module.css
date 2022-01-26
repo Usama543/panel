@@ -1,0 +1,13 @@
+.notfication {
+  width: 300px;
+  border-radius: 20;
+  background-color: "blue";
+}
+
+.bar {
+  outline: "none !important";
+  background-color: "blue";
+  color: "white";
+  font-weight: "bold";
+  background: "blue";
+}

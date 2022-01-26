@@ -1,0 +1,111 @@
+.layout {
+  overflow-x: hidden;
+}
+.rotate {
+  width: 50px;
+  height: 50px;
+
+  transition: 0.6s ease;
+}
+.animate {
+  transform: rotate(45deg);
+}
+.rotated {
+  transform: rotate(90deg);
+  color: "blue";
+}
+.button {
+  color: black;
+  border-radius: 10px;
+  outline: none !important;
+  border: none;
+  background-color: white;
+}
+.button:hover {
+  background-color: lightgray;
+}
+@keyframes example {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.transformed {
+  -webkit-transform: rotate(45deg) scale(1.25, 0.5);
+  -moz-transform: rotate(45deg) scale(1.25, 0.5);
+  transform: rotate(45deg) scale(1.25, 0.5);
+}
+/* The element to apply the animation to */
+.animate {
+  transform: rotate(90deg);
+}
+.sider {
+  margin-bottom: 20px;
+}
+.hover {
+  opacity: 80%;
+}
+.hover:hover {
+  opacity: 100%;
+  color: white;
+}
+
+/*500 PIXEL OR LESS*/
+
+.heading {
+}
+@media (min-width: 1150px) {
+  #sider {
+    font-size: 15px;
+    z-index: 11;
+  }
+  .root {
+    margin-left: 80px;
+  }
+  .top {
+    margin-left: 240px;
+  }
+  .arrow {
+    margin-left: 40px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1150px) {
+  #sider {
+    font-size: 11px;
+    padding-right: 10px;
+    z-index: 11;
+  }
+  .root {
+  }
+  .top {
+    margin-left: 95px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+body {
+  overflow-x: hidden;
+  position: static;
+}
+@media (max-width: 700px) {
+  #sider {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  #sider {
+    width: 19%;
+  }
+}
+.footer {
+  position: absolute;
+  height: calc(100% - 60px);
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

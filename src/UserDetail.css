@@ -1,0 +1,45 @@
+.active_navbar {
+  background-color: blue;
+}
+
+li {
+  list-style: none;
+  padding-right: 20px;
+  display: inline-block;
+}
+li .btn {
+  padding: 7px 20px;
+  background: #fff;
+  border: 1px solid #000;
+  font-size: 16px;
+  color: #000;
+  outline: none;
+}
+li .btn.active {
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+}
+.sideButton {
+  width: 200px;
+  height: 50px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  border-radius: 0 10px 10px 0;
+  background-color: rgba(191, 191, 191, 0.14);
+  box-shadow: inset 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+  -webkit-box-shadow: inset 0px -1px 28px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: inset 0px -1px 28px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: inset 0px -1px 28px -1px rgba(0, 0, 0, 0.1);
+}

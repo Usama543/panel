@@ -1,0 +1,22 @@
+@media (max-width: 1150px) {
+  body {
+    font-size: 8px;
+  }
+  input::placeholder {
+    font-size: 8px;
+  }
+  option {
+    font-size: 8px;
+  }
+}
+@media (min-width: 1150px) {
+  body {
+    font-size: 15px;
+  }
+  input::placeholder {
+    font-size: 15px;
+  }
+  option {
+    font-size: 15px;
+  }
+}
